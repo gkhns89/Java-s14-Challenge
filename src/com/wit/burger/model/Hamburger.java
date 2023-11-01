@@ -1,15 +1,16 @@
 package com.wit.burger.model;
 
 import com.wit.burger.enums.Bread;
+import com.wit.burger.enums.Meat;
 
 public class Hamburger {
 
     private String name;
-    private String meat;
+    private Meat meat;
     private double price;
     private Bread breadRollType;
 
-    public Hamburger(String name, String meat, double price, Bread breadRollType) {
+    public Hamburger(String name, Meat meat, double price, Bread breadRollType) {
         this.name = name;
         this.meat = meat;
         this.price = price;
@@ -24,11 +25,11 @@ public class Hamburger {
         this.name = name;
     }
 
-    public String getMeat() {
+    public Meat getMeat() {
         return meat;
     }
 
-    public void setMeat(String meat) {
+    public void setMeat(Meat meat) {
         this.meat = meat;
     }
 
