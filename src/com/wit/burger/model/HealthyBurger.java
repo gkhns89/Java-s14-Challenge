@@ -1,6 +1,6 @@
 package com.wit.burger.model;
 
-public class HealthyBurger extends Hamburger{
+public class HealthyBurger{
 
 
 

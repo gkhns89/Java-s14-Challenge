@@ -10,9 +10,14 @@ public class Hamburger {
     private double price;
     private Bread breadRollType;
 
-    public Hamburger(String name, Meat meat, double price, Bread breadRollType) {
+    private Addition addition1;
+    private Addition addition2;
+    private Addition addition3;
+    private Addition addition4;
+
+    public Hamburger(String name, double price, Bread breadRollType) {
         this.name = name;
-        this.meat = meat;
+        this.meat = Meat.BEEF;
         this.price = price;
         this.breadRollType = breadRollType;
     }
